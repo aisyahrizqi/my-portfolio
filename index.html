@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <title>MY PORTFOLIO</title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/236x/a2/d6/9e/a2d69eb653a6f18a4d5d83192ba3a300.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-slate-800 flex flex-wrap items-center justify-between p-5">
+        <a href="" class="flex font-medium items-center text-white font-wais">
+            <span class="uppercase text-start">aisyyie</span>
+        </a>
+        <div class="flex md:hidden">
+            <button id="hamburger">
+                <img src="aset/asset/menu-squared.png" alt="Menu Icon" class="toggle block" width="50" height="50">
+                <img src="aset/asset/close-window.png" alt="Close Icon" class="toggle hidden" width="50" height="50">
+            </button>
+        </div>
+        <div
+            class="toggle hidden w-full md:w-auto md:flex text-right font-semibold mt-5 md:mt-0 border-t-2 border-cyan-700 md:border-none">
+            <a href="#aboutMe"
+                class="block md:inline-block text-slate-400 hover:text-cyan-400 px-3 py-3 border-b-2 md:border-none uppercase">About
+                Me</a>
+            <a href="#whatIdo"
+                class="block md:inline-block text-slate-400 hover:text-cyan-400 px-3 py-3 border-b-2 md:border-none uppercase">What
+                I Do</a>
+            <a href="#portofolio"
+                class="block md:inline-block text-slate-400 hover:text-cyan-400 px-3 py-3 border-b-2 md:border-none uppercase">Portofolio</a>
+            <a href="#skill"
+                class="block md:inline-block text-slate-400 hover:text-cyan-400 px-3 py-3 border-b-2 md:border-none uppercase">Skill</a>
+            <a href="#blog"
+                class="block md:inline-block text-slate-400 hover:text-cyan-400 px-3 py-3 border-b-2 md:border-none uppercase">Blog</a>
+        </div>
+
+        <a href="contact"
+            class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-pink-300 hover:bg-slate-500 text-white md:rounded-xl font-ubuntu font-semibold">Contact
+            Me</a>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- About Me -->
+    <section id="aboutMe" class="relative h-screen bg-cover bg-center"
+        style="background-image: url('https://i.pinimg.com/236x/eb/b7/04/ebb7045aef38216bf7de076ed7bc5ce1.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center relative z-10">
+
+            <!-- Image Section -->
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 drop-shadow-xl sm:order-1 lg:order-2">
+                <img class="object-cover object-center rounded-lg lg:w-full shadow-lg" src="aset/asset/ijazahblue.png"
+                    alt="Foto">
+            </div>
+
+            <!-- Text Section -->
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-16 flex flex-col md:text-left md:items-start mb-16 md:pt-10 pt-8 items-center text-center">
+                <h1 class="sm:text-6xl text-4xl mb-4 font-extrabold text-gray-800 shadow-md">AISYAH RIZQI NAJIBAH</h1>
+                <h2 class="font-wais sm:text-3xl text-xl mb-4 font-bold text-gray-300">Web / Mobile Developer</h2>
+                <p class="mb-8 leading-relaxed font-ubuntu text-gray-800 font-bold">Hello! I’m Aisyah, a third-semester
+                    student at Islamic Development Network Polytechnic Bogor, majoring in Software Engineering
+                    Technology. I have a deep passion for software development, especially in backend development using
+                    PHP and the Laravel framework.
+                </p>
+
+                <!-- Social Buttons -->
+                <div class="flex space-x-2 my-2 bg-gray-950 p-3 rounded-lg">
+                    <a href="https://www.linkedin.com/in/aisyah-rizqi-najibah-b25540316"
+                        class="bg-gray-800 text-white p-2 rounded-md hover:bg-gray-700 transition flex items-center justify-center w-10 h-10">
+                        <i class="bi bi-linkedin text-lg"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@tanpawarna_"
+                        class="bg-gray-800 text-white p-2 rounded-md hover:bg-gray-700 transition flex items-center justify-center w-10 h-10">
+                        <i class="bi bi-tiktok text-lg"></i>
+                    </a>
+                    <a href="https://www.instagram.com/aisrizna_/"
+                        class="bg-gray-800 text-white p-2 rounded-md hover:bg-gray-700 transition flex items-center justify-center w-10 h-10">
+                        <i class="bi bi-instagram text-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Me -->
+
+
+    <!-- What I Do -->
+    <section id="whatIdo"
+        style="background-image: url('https://i.pinimg.com/236x/31/4b/04/314b04d1cbf5bfffc7ebfa3b4547ee12.jpg'); background-size: cover; background-position: center; height: auto; padding: 60px 0;">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-slate-400">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2
+                    class="sm:text-3xl text-[40px] font-bold font-acme text-slate-400 decoration-4 underline-offset-8 tracking-[7px] uppercase">
+                    What I Do</h2>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <!-- UI/UX Design Basics -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">UI/UX Design Basics</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Creating intuitive and
+                                user-friendly interfaces by focusing on user experience, accessibility, and aesthetic
+                                appeal.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Problem-Solving -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">Problem-Solving</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Identifying and resolving
+                                technical challenges efficiently by applying analytical and creative thinking.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Development -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="500">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">Mobile Development</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Building responsive and
+                                high-performance mobile applications for Android and iOS using modern technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- API Integration -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="600">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">API Integration</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Seamlessly connecting frontend
+                                and
+                                backend systems through robust and secure API implementation.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Frontend Development -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="700">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">Frontend Development</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Developing visually appealing
+                                and
+                                interactive web interfaces with modern frontend technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backend Development -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="800">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">Backend Development</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Building scalable and
+                                efficient
+                                backend architectures that power dynamic web and mobile applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Database Management -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="900">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">Database Management</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Designing and managing
+                                relational
+                                and non-relational databases to ensure data integrity and optimal performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Basic DevOps & Deployment -->
+                <div class="p-4 sm:w-full md:w-1/3" data-aos="fade-up" data-aos-delay="1000">
+                    <div
+                        class="flex rounded-lg h-full bg-gray-800 shadow-xl p-8 flex-col hover:scale-105 transition-transform">
+                        <div class="flex items-center mb-3">
+                            <h2 class="text-white text-lg font-ubuntu font-medium">Basic DevOps & Deployment</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-md font-ubuntu text-slate-300">Deploying and maintaining
+                                applications on cloud platforms while optimizing infrastructure efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End What I Do -->
+
+    <!-- My Project -->
+    <section id="my-project"
+        style="background-image: url('https://i.pinimg.com/236x/eb/b7/04/ebb7045aef38216bf7de076ed7bc5ce1.jpg'); background-size: cover; background-position: center; height: 220vh;">
+        <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2
+                    class="sm:text-3xl text-[40px] font-bold font-acne text-white decoration-4 underline-offset-8 tracking-[7px] uppercase">
+                    My Project</h2>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/3 md:w-1/2 p-4" data-aos="zoom-in-right">
+                    <div class="bg-slate-600 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-48 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                            src="aset/asset/portofolio/project1.png" alt="content">
+                        <h2 class="text-[28px] text-center text-slate-200 font-medium font-nerko mb-4">WEBSITE PORTFOLIO
+                        </h2>
+                        <p class="leading-relaxed text-[16px] font-wais text-center">This portfolio website is created
+                            to showcase experiences and projects that have been worked on, using HTML and CSS for a
+                            responsive and professional design.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4" data-aos="zoom-in-out">
+                    <div class="bg-slate-600  bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-48 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                            src="aset/asset/portofolio/project2.png" alt="content">
+                        <h2 class="text-[28px] text-center text-slate-200 font-medium font-nerko mb-4">WEBSITE PENGADUAN
+                            MASYARAKAT</h2>
+                        <p class="leading-relaxed text-[16px] font-wais text-center">A public complaint website provides
+                            a platform for citizens to report issues efficiently and transparently. It allows users to
+                            submit complaints, track progress, and receive updates, ensuring better communication
+                            between the public and authorities. By streamlining the reporting process, the website helps
+                            improve public services, increase accountability, and foster trust in governance.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4" data-aos="zoom-it-left">
+                    <div class="bg-slate-600  bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-48 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                            src="aset/asset/portofolio/project3.png" alt="content">
+                        <h2 class="text-[28px] text-center text-slate-200 font-medium font-nerko mb-4">FOOD-STORE</h2>
+                        <p class="leading-relaxed text-[16px] font-wais text-center">A food store website helps
+                            businesses reach more customers by providing easy access to menus, ordering, and restaurant
+                            information anytime, anywhere. With an online ordering system, customers can conveniently
+                            place orders and make payments, increasing sales and efficiency. Additionally, a
+                            well-designed website strengthens branding and allows for effective promotions through
+                            blogs, customer testimonials, and exclusive offers, making it a powerful tool for business
+                            growth.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4" data-aos="zoom-it-left">
+                    <div class="bg-slate-600  bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-48 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                            src="aset/asset/portofolio/project4.png" alt="content">
+                        <h2 class="text-[28px] text-center text-slate-200 font-medium font-nerko mb-4">UI APP BELANJA
+                        </h2>
+                        <p class="leading-relaxed text-[16px] font-wais text-center">A shopping app UI for accessories
+                            enhances the user experience by providing a visually appealing and intuitive interface for
+                            browsing, selecting, and purchasing fashion accessories. With a well-structured design,
+                            smooth navigation, and engaging visuals, it ensures a seamless shopping experience. Features
+                            like product categories, filters, wishlist, and secure checkout help users find and buy
+                            their favorite accessories effortlessly, increasing customer satisfaction and sales.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4" data-aos="zoom-it-left">
+                    <div class="bg-slate-600  bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-48 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                            src="aset/asset/portofolio/project5.png" alt="content">
+                        <h2 class="text-[28px] text-center text-slate-200 font-medium font-nerko mb-4">E-WALLET</h2>
+                        <p class="leading-relaxed text-[16px] font-wais text-center">An e-wallet app enables users to
+                            make secure and cashless transactions anytime, anywhere. It allows for seamless money
+                            transfers, bill payments, and online purchases, reducing the need for physical cash. With
+                            features like QR code payments, transaction history, and strong security measures, an
+                            e-wallet app enhances convenience, speed, and financial management for users.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4" data-aos="zoom-it-left">
+                    <div class="bg-slate-600 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-48 w-full rounded object-cover object-center mb-6 hover:scale-105 duration-500"
+                            src="aset/asset/portofolio/project7.png" alt="content">
+                        <h2 class="text-[28px] text-center text-slate-200 font-medium font-nerko mb-4">UI CHATTING APP
+                        </h2>
+                        <p class="leading-relaxed text-[16px] font-wais text-center">A chatting app UI is designed to
+                            provide a seamless and engaging messaging experience. With a clean layout, smooth
+                            navigation, and interactive elements, users can effortlessly send messages, share media, and
+                            make voice or video calls. Features like real-time notifications, customizable themes, emoji
+                            reactions, and dark mode enhance usability and personalization, ensuring a modern and
+                            user-friendly communication platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End My Project -->
+
+<!-- Skill -->
+<section id="skill"
+    style="background-image: url('https://i.pinimg.com/236x/31/4b/04/314b04d1cbf5bfffc7ebfa3b4547ee12.jpg'); background-size: cover; background-position: center; height: 100vh;">
+    <div class="container px-5 py-24 mx-auto flex flex-col justify-center items-center border-t-2 border-white">
+        <h2
+            class="sm:text-3xl text-[40px] font-bold font-ubuntu text-white decoration-4 underline-offset-8 tracking-[7px] uppercase text-center mb-6">
+            Skill
+        </h2>
+        <div class="flex flex-wrap justify-center gap-6 items-center">
+            <img src="aset/asset/skills/cae1b4f6b223fe5a7bb712b680cffa67-removebg-preview.png" alt="HTML5"
+                class="h-16 w-16 object-contain scale-90">
+            <img src="aset/asset/skills/621f21fa891b48023ff7c4dff12c7aa0-removebg-preview.png" alt="CSS3"
+                class="h-16 w-16 object-contain scale-90">
+            <img src="aset/asset/skills/e797a8c593c81d72f395d1ccc022ba3f-removebg-preview.png" alt="JavaScript"
+                class="h-16 w-16 object-contain scale-90">
+            <img src="aset/asset/skills/513a62c1d85f00f3e4b1224ff6f00939-removebg-preview.png" alt="Tailwind CSS"
+                class="h-16 w-16 object-contain">
+            <img src="aset/asset/skills/92d660adb69ff63b4d133cda9592d848-removebg-preview.png" alt="Bootstrap"
+                class="h-16 w-16 object-contain">
+            <img src="aset/asset/skills/de8629935b90d646b825e2adbfce0395-removebg-preview.png" alt="Laravel"
+                class="h-16 w-16 object-contain">
+            <img src="aset/asset/skills/f2b5b99f75e6f4d1337a9b7afc7fc7c0-removebg-preview.png" alt="PHP"
+                class="h-16 w-14 object-contain scale-75">
+            <img src="aset/asset/skills/00e1eecf4c38085b2101ce994deba1b8-removebg-preview.png" alt="MySQL"
+                class="h-16 w-16 object-contain">
+        </div>
+    </div>
+</section>
+    <!-- End Skill -->
+
+<!-- Contact Me -->
+<section id="contact"
+    style="background-image: url('https://i.pinimg.com/236x/eb/b7/04/ebb7045aef38216bf7de076ed7bc5ce1.jpg'); background-size: cover; background-position: center; min-height: 100vh;"
+    class="flex justify-center items-center">
+    <div class="container px-5 py-32 mx-auto border-t-4 border-slate-950 shadow-xl drop-shadow-lg">
+        <div class="flex flex-col text-center w-full mb-14" data-aos="fade-up" data-aos-delay="400">
+            <h2
+                class="sm:text-3xl text-[40px] font-bold font-acme text-white decoration-4 underline-offset-8 tracking-[7px] uppercase">
+                Contact Me</h2>
+            <p
+                class="lg:w-2/3 mx-auto leading-relaxed text-xl font-nunito font-semibold uppercase mt-6 text-slate-400">
+                Get in touch with me for collaboration</p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div
+                class="bg-gradient from-cyan-600 to-cyan-700 p-8 rounded-lg shadow-xl transition-transform transform hover:scale-105">
+                <div class="flex flex-wrap -m-2">
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label class="leading-7 text-xl text-slate-200 uppercase font-ubuntu">Name</label>
+                            <input type="text" name="name"
+                                class="w-full bg-slate-800 bg-opacity-30 rounded border border-slate-500 focus:border-cyan-400 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-300 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 focus:bg-slate-600">
+                        </div>
+                    </div>
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label class="leading-7 text-xl text-slate-200 uppercase font-ubuntu">Email</label>
+                            <input type="email" name="email"
+                                class="w-full bg-slate-800 bg-opacity-30 rounded border border-slate-500 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-300 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 focus:bg-slate-600">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <label class="leading-7 text-xl text-slate-200 uppercase font-ubuntu">Message</label>
+                            <textarea name="message"
+                                class="w-full bg-slate-800 bg-opacity-30 rounded border border-slate-500 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-300 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 focus:bg-slate-600 resize-none"></textarea>
+                        </div>
+                    </div>
+                    <div class="p-4 w-full">
+                        <button type="submit"
+                            class="flex mx-auto text-white bg-gradient-to-r from-cyan-400 to-orange-400 hover:from-orange-500 hover:to-orange-400 border-none font-ubuntu font-semibold py-4 px-8 focus:outline-none text-xl uppercase shadow-lg rounded-xl transition-all duration-300">Send
+                            Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Contact Me -->
+
+
+  <!-- Footer -->
+  <footer style="background-color: rgb(3, 3, 14); padding: 20px 0; text-align: center; width: 100%;">
+      <div>
+          <p style="font-family: 'wais', sans-serif; font-size: 20px; color: white; font-weight: 600; margin: 0;">
+              Copyright &copy; 2024 || All Rights Reserved with Ais
+          </p>
+      </div>
+  </footer>
+  <!-- End Footer -->
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        //    toggle navbar
+        document.getElementById('hamburger').onclick = function toggleMenu() {
+            const navToggle = document.getElementsByClassName('toggle');
+            for (let i = 0; i < navToggle.length; i++) {
+                navToggle[i].classList.toggle('hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>
